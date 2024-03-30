@@ -1,0 +1,35 @@
+.greet-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.greetBackgroundBtn {
+  height: 40px;
+  width: 70px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #db1c48;
+  color: #ffff;
+  margin-right: 15px;
+}
+.greetNormalBtn {
+  height: 40px;
+  width: 70px;
+  border-radius: 20px;
+  border: 1px solid #db1c48;
+  cursor: pointer;
+  background-color: #ffff;
+  color: #db1c48;
+  margin-right: 15px;
+}

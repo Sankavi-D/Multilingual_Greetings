@@ -1,0 +1,20 @@
+.bg-container {
+  background-color: #ffff;
+  box-shadow: 10px 5px 5px #1e293b;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Greeting-Heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #1e293b;
+}
+.img {
+  width: 200px;
+}
